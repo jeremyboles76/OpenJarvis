@@ -60,7 +60,7 @@ export function Sidebar() {
     { path: '/data-sources', icon: Database, label: 'Data Sources' },
     { path: '/agents', icon: Bot, label: 'Agents' },
     { path: '/vision-to-cad', icon: Layers, label: 'Vision to CAD' },
-    { path: '/solomon-trading', icon: TrendingUp, label: 'Solomon · Trading' },
+    { path: '/solomon-trading', icon: TrendingUp, label: 'Crypto Trading' },
     { path: '/logs', icon: ScrollText, label: 'Logs' },
     { path: '/settings', icon: Settings, label: 'Settings' },
     { path: '/get-started', icon: Rocket, label: 'Get Started' },
