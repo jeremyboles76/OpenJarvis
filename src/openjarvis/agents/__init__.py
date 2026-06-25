@@ -92,6 +92,11 @@ try:
 except ImportError:
     pass
 
+try:
+    import openjarvis.agents.coinbase_trading  # noqa: F401
+except ImportError:
+    pass
+
 # Registry alias: "react" -> NativeReActAgent (for backward compat)
 try:
     from openjarvis.core.registry import AgentRegistry

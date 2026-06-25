@@ -136,6 +136,12 @@ mining-pearl-cpu = [
     # additional resolution today; the actual install happens on demand).
 ]
 framework-comparison = ["polars>=1.0"]
+trading-coinbase = [
+    "coinbase-developer-platform>=0.1",
+    "coinbase-agentkit>=0.1",
+    "langchain-openai>=0.1",
+    "langgraph>=0.2",
+]
 docs = [
     "mkdocs>=1.6",
     "mkdocs-material>=9.5",
