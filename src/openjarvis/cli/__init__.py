@@ -145,6 +145,15 @@ except Exception as _dr_exc:
 cli.add_command(self_update, "self-update")
 cli.add_command(bootstrap_cmd, "_bootstrap")
 
+try:
+    from openjarvis.cli.design_to_3d_cmd import design_to_3d
+
+    cli.add_command(design_to_3d, "design-to-3d")
+except Exception as _d3d_exc:
+    import logging as _logging
+
+    _logging.getLogger(__name__).debug("design-to-3d command unavailable: %s", _d3d_exc)
+
 # Gateway CLI commands (lazy import to avoid pulling starlette)
 try:
     from openjarvis.cli.auth_cmd import auth

@@ -136,6 +136,12 @@ mining-pearl-cpu = [
     # additional resolution today; the actual install happens on demand).
 ]
 framework-comparison = ["polars>=1.0"]
+tools-3d = [
+    "trimesh>=4.0",
+    "numpy>=1.24",
+    "anthropic>=0.30",
+    "openai>=1.30",
+]
 docs = [
     "mkdocs>=1.6",
     "mkdocs-material>=9.5",
